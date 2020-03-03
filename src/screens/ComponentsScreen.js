@@ -6,10 +6,10 @@ const ComponentsScreen = () => {
   return (
     <View>
       <Text style={styles.textStyle}>THis is the components screen</Text>
-      <Text style={styles.otherText}>THis is the components screen</Text>
+      <Text style={styles.otherText}>THis is also the components screen</Text>
       <Text style={styles.otherText}>{stuff}</Text>
     </View>
-  )
+  );
 };
 
 const styles = StyleSheet.create({
