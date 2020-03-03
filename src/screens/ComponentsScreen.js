@@ -14,10 +14,10 @@ const ComponentsScreen = () => {
 
 const styles = StyleSheet.create({
   textStyle: {
-    fontSize: 30
+    fontSize: 50
   },
   otherText: {
-    fontSize: 50
+    fontSize: 30
   }
 });
 
