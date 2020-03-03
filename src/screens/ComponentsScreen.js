@@ -5,7 +5,7 @@ const ComponentsScreen = () => {
   const stuff = 'MEEEEE';
   return (
     <View>
-      <Text style={styles.textStyle}>THis is the components screen</Text>
+      <Text style={styles.textStyle}>THIS is the components screen</Text>
       <Text style={styles.otherText}>THis is also the components screen</Text>
       <Text style={styles.otherText}>{stuff}</Text>
     </View>
