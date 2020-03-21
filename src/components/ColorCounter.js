@@ -1,8 +1,15 @@
 import React from 'react';
-import { View, Text, StyleSheet} from 'react-native';
+import { View, Text, StyleSheet, Button} from 'react-native';
 
-const SquareScreen = () => {
-  return <Text>Square Screen</Text>
+const ColorCounter = () => {
+  return (<View>
+    <Text>Red</Text>
+    <Button title="Increase Red" />
+    <Button title="Decrease Red" />
+  </View>
+  );
 };
 
 const style = StyleSheet.create({});
+
+export default ColorCounter;
