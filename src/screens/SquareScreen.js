@@ -27,8 +27,8 @@ const SquareScreen = () => {
 
   return <View>
     <ColorCounter
-      onIncrease={() => }
-      onDecrease={() => }
+      onIncrease={() => dispatch{colorToChange: 'red', amount: 15} }
+      onDecrease={() => dispatch{colorToChange: 'red', amount: -15}}
       color="Red"
       />
     <ColorCounter
