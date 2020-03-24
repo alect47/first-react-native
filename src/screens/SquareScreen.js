@@ -17,7 +17,7 @@ const reducer = (state, action) => {
     case 'blue':
       return { ...state, blue: state.blue + action.amount };
     default:
-
+      return state;
 };
 
 const SquareScreen = () => {
