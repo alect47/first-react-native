@@ -15,11 +15,7 @@ const SquareScreen = () => {
 
     switch(color) {
       case 'red':
-        if (red + change > 255 || red + change < 0) {
-          return;
-        } else {
-          setRed(red + change);
-        }
+        red + change > 255 || red + change < 0 ? null : setRed(red + change)
         return;
     }
   };
