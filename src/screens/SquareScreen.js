@@ -17,7 +17,7 @@ const SquareScreen = () => {
       if (red + change > 255 || red + change < 0) {
         return;
       } else {
-        
+        setRed(red + change);
       }
     }
   };
