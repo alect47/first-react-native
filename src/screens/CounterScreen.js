@@ -23,12 +23,14 @@ const CounterScreen = () => {
     <Button
       title="Increase"
       onPress={() => {
+        dispatch({ type: 'increment', payload: 1})
     }}/>
     <Button
       title="Decrease"
       onPress={() => {
+        dispatch({ type: 'decrement', payload: 1})
     }}/>
-    <Text>Current Count: {}</Text>
+    <Text>Current Count: {state.counter}</Text>
   </View>
 };
 
