@@ -8,7 +8,7 @@ const reducer = (state, action) => {
     case 'increment':
       return { ...state, counter: state.counter +  action.payload};
     case 'decrement':
-      return {...state, count: state.count - action.payload};
+      return {...state, count: state.counter - action.payload};
     default:
       return state;
   }
