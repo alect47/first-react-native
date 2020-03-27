@@ -9,7 +9,7 @@ const TextScreen = () => {
 
   return (
     <View>
-      <Text>Enter Name:</Text>
+      <Text>Enter Password:</Text>
       <TextInput
         style={styles.input}
         autoCapitalize="none"
@@ -18,6 +18,7 @@ const TextScreen = () => {
         onChangeText={(newText) => setName(newText) }
       />
       <Text>My name is {name}</Text>
+      {name.length < 6 ? <Text>Password must be longer than 5 characters</Text> : null}
     </View>
   );
 }
